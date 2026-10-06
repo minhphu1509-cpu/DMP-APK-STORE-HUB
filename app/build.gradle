@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.dmp.store'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.dmp.store'
+        minSdk 19
+        // API 28 preserves Android 4.4 support while enabling per-source APK install consent on API 26+.
+        targetSdk 28
+        versionCode 1
+        versionName '1.0.0'
+    }
+
+    androidResources {
+        noCompress += ['apk']
+    }
+}

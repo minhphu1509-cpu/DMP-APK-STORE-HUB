@@ -1,6 +1,6 @@
 # DMP APK STORE HUB
 
-Ứng dụng thư viện APK tối giản cho Android TV Box/Smart TV, dùng remote D-pad và hỗ trợ Android 4.4 trở lên. Danh mục và ba tệp APK hiện được đóng gói trong ứng dụng.
+Ứng dụng thư viện APK tối giản cho Android TV Box/Smart TV, dùng remote D-pad và hỗ trợ Android 4.4 trở lên. Danh mục và bốn tệp APK hiện được đóng gói trong ứng dụng.
 
 ## Tính năng
 
@@ -19,8 +19,9 @@ Các tệp gốc được giữ trong `File APK/`; bản sao dùng trong ứng d
 | DMP Smart TV | `app-release.apk` | 4.4 |
 | MovieLegend Store | `movie-legend.apk` | 5.0 |
 | VietMITV | `vietmitv.apk` | 6.0 |
+| SIRO-TV | `SIRO-ATV.apk` | 6.0 |
 
-Ba APK chiếm khoảng 40,6 MB; các biểu tượng gốc được trích từ từng APK và hiển thị trên thẻ ứng dụng. Các APK được sao chép vào bộ nhớ đệm của TV khi người dùng chọn cài. Một số tệp có thể chỉ hỗ trợ kiến trúc CPU nhất định, Android installer sẽ báo nếu thiết bị không tương thích.
+Bốn APK chiếm khoảng 47,9 MB; các biểu tượng gốc được trích từ từng APK và hiển thị trên thẻ ứng dụng. Các APK được sao chép vào bộ nhớ đệm của TV khi người dùng chọn cài. Một số tệp có thể chỉ hỗ trợ kiến trúc CPU nhất định, Android installer sẽ báo nếu thiết bị không tương thích.
 
 ## Build
 

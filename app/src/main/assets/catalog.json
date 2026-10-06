@@ -1,0 +1,6 @@
+[
+  {"id":"dmp-tv","title":"DMP Smart TV","package":"com.tizenos.launcher","version":"1.4.4","minSdk":19,"file":"app-release.apk","category":"Tiện ích","description":"Bộ công cụ DMP Smart TV dành cho trải nghiệm giải trí trên màn hình lớn."},
+  {"id":"movie-legend","title":"MovieLegend Store","package":"com.dinhlap.movielegend","version":"1.0","minSdk":21,"file":"movie-legend.apk","category":"Giải trí","description":"Ứng dụng MovieLegend Store dùng để khám phá và tải ứng dụng."},
+  {"id":"vietmitv","title":"VietMITV","package":"com.vxm.voiceassist.googletv","version":"v20","minSdk":23,"file":"vietmitv.apk","category":"Giải trí","description":"Ứng dụng VietMITV cho thiết bị Android TV và TV Box."},
+  {"id":"siro-atv","title":"SIRO-TV","package":"com.siro.tv","version":"86.0","minSdk":23,"file":"SIRO-ATV.apk","category":"Giải trí","description":"Ứng dụng SIRO-TV dành cho Android TV và TV Box."}
+]
