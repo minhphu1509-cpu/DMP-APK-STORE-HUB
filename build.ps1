@@ -48,7 +48,7 @@ if ($LASTEXITCODE -ne 0) { throw 'DEX compilation failed.' }
 & (Join-Path $buildTools 'aapt2.exe') compile --dir $resources -o $compiledResources
 if ($LASTEXITCODE -ne 0) { throw 'Android resource compilation failed.' }
 
-& (Join-Path $buildTools 'aapt2.exe') link -o $unsigned --manifest $manualManifest -I $platform -A $assets -R $compiledResources --min-sdk-version 19 --target-sdk-version 28 --version-code 1 --version-name 1.0.0 -0 apk
+& (Join-Path $buildTools 'aapt2.exe') link -o $unsigned --manifest $manualManifest -I $platform -A $assets -R $compiledResources --min-sdk-version 19 --target-sdk-version 28 --version-code 2 --version-name 1.0.1 -0 apk
 if ($LASTEXITCODE -ne 0) { throw 'Android manifest/assets packaging failed.' }
 
 & (Join-Path $javaBin 'jar.exe') uf $unsigned -C $dexDir classes.dex
