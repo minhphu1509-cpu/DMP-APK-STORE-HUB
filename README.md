@@ -10,6 +10,14 @@
 - Logo DMP Store làm biểu tượng APK và nhận diện ở giao diện.
 - Điều hướng bằng remote, giao diện ngang tối ưu cho TV.
 
+## Tải DMP Store bằng Downloader
+
+- Mở ứng dụng Downloader trên TV và nhập mã: **8535968**.
+- Liên kết ngắn: [aftv.news/8535968](https://aftv.news/8535968).
+- [Tải bản mới nhất](https://github.com/minhphu1509-cpu/DMP-APK-STORE-HUB/releases/latest/download/dmp-store.apk) từ GitHub Releases.
+
+Mã Downloader này trỏ đến liên kết tải bản mới nhất. Khi phát hành phiên bản mới, giữ tên asset `dmp-store.apk` để mã hiện tại tiếp tục hoạt động.
+
 ## APK được đưa vào thư viện
 
 Các tệp gốc được giữ trong `File APK/`; bản sao dùng trong ứng dụng nằm trực tiếp tại `app/src/main/assets/` để tương thích với AssetManager trên Android 4.4+.
