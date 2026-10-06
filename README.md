@@ -39,7 +39,7 @@ Yêu cầu Android SDK Platform 36, Build Tools 36.0.0 và JDK có trong Android
 powershell -ExecutionPolicy Bypass -File .\build.ps1
 ```
 
-APK đầu ra: `app/build/outputs/apk/manual/dmp-store-debug.apk`. Đây là bản ký khóa debug để cài thử; tạo khóa phát hành riêng trước khi phân phối công khai.
+APK đầu ra: `app/build/outputs/apk/manual/dmp-store-debug.apk`. Bản 1.0.1 phát hành qua Downloader được ký bằng khóa debug cục bộ tại `app/build/keys/debug.keystore` để giữ khả năng cập nhật từ bản đã cài. Giữ lại và dùng đúng khóa này cho các bản cập nhật tiếp theo; nếu đổi khóa, Android sẽ không cài đè được lên bản cũ.
 
 ## Cấu hình thư viện
 
